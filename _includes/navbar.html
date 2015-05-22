@@ -1,0 +1,12 @@
+<ul>
+{% for entry in site.data.mainmenu %}
+  <li>
+    {% if entry.url != "" %}
+      <a href="{{site.basenafdocs}}/{{entry.url}}">{{entry.title}}</a>
+    {% else %}
+      {{entry.title}}
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
