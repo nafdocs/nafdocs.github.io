@@ -1,6 +1,6 @@
-<ul>
+<ul class="navig">
 {% for entry in site.data.mainmenu %}
-  <li>{% if entry.url != "" %}<a href="{{site.basenafdocs}}/{{entry.url}}">{{entry.title}}</a>{% else %}{{entry.title}}{% endif %}</li>
+  <li>{% if entry.url != "" %}<a href="{{site.basenafdocs}}/{{entry.url}}">{{entry.title | upcase}}</a>{% else %}{{entry.title | upcase}}{% endif %}</li>
 {% endfor %}
 </ul>
 
