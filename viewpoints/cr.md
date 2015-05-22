@@ -51,11 +51,11 @@ to highlight capability gaps.
 The view is created by analysing project data to determine when projects
 acquiring resources that provide military capability are to be
 delivered, upgraded and/or withdrawn (this data may be provided in part
-by a [Lines of Development View (Lr)](/lr), and the mappings from
+by a [Lines of Development View (Lr)](lr.html), and the mappings from
 capability to resources that is provided in [P2](p2.html) and [Pr](pr.html)).
 
 The output from this iterative approach is a tabular view that
-represents the required capability phasing.  However, there is a variant
+represents the required capability phasing. However, there is a variant
 view in which the table is overlaid with the names of the projects that
 will deliver the capability increments:
 
