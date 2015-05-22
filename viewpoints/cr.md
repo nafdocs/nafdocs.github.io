@@ -1,9 +1,9 @@
 ---
 title: Cr – Capability Roadmap
 layout: page
-naf3: NCV-3
-modaf: StV-3
 ---
+
+*NAF v3: NCV-3 MODAF: StV-3*
 
 The Cr provides a representation of the actual or estimated availability
 of capabilities over a period of time (derived from capability delivery
