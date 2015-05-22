@@ -1,5 +1,6 @@
-# nafdocs
-NATO Architecture Framework
+# nafdocs.github.io
+
+## NATO Architecture Framework
 
 This repository contains a Jekyll port of the NAF documentation site
 (nafdocs.org). The purpose of porting the site from Wordpress to
