@@ -1,6 +1,7 @@
 ---
 title: Cr – Capability Roadmap
 layout: page
+id: cr
 ---
 
 *NAF v3: NCV-3 MODAF: StV-3*
@@ -89,9 +90,4 @@ specified in [C2](c2.html) may or may not be met by those programmes.*
 -   Project
 -   Project Milestone
 
-## Meta-Model
-
-
-The detailed meta-model for Cr can be viewed
-[here](/modem/index.htm?goto=17)
 

@@ -1,6 +1,7 @@
 ---
 title: Sr – Service Roadmap
 layout: page
+id: sr
 ---
 
 
@@ -26,8 +27,5 @@ of Service Specifications.
 -   Service Level
 -   Service Specification Version Succession (relationship)
 
-## Meta-Model
 
-The detailed meta-model for Sr can be viewed
-[here](/modem/index.htm?goto=33)
 

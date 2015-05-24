@@ -1,6 +1,7 @@
 ---
 title: Lr – Lines of Development
 layout: page
+id: lr
 ---
 
 The Lr view specifies the logical threads (lines of development) for a
@@ -32,8 +33,4 @@ and be aligned with [Cr Capability Phasing](cr.html) view.
 
 ![lr-hlmm](http://nafdocs.org/wp-content/uploads/2013/06/lr-hlmm.png)
 
-## Meta-Model
-
-The detailed meta-model for Lr can be viewed
-[here](/modem/index.htm?goto=49)
 

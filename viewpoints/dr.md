@@ -1,6 +1,7 @@
 ---
 title: Dr – Deployment Schedule
 layout: page
+id: dr
 ---
 
 *NAF v3: NCV-5 MODAF: StV-5*

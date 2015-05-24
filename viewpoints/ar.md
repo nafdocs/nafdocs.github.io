@@ -1,6 +1,7 @@
 ---
 title: Ar – Architecture Roadmap
 layout: page
+id: ar
 ---
 
 *NAF v3: NAV-1 MODAF: AV-1*
@@ -19,7 +20,4 @@ responsibilities.
 
 ## Key Elements and Their Relationships
 
-## Meta-Model
-
-[![ap-meta-model](http://nafdocs.org/wp-content/uploads/2013/06/ap-meta-model.svg)](http://nafdocs.org/wp-content/uploads/2013/06/ap-meta-model.svg)
 

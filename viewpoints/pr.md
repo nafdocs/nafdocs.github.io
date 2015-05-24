@@ -1,6 +1,7 @@
 ---
 title: Pr – Configuration Management
 layout: page
+id: pr
 ---
 
 
@@ -29,8 +30,5 @@ Implementations) mapped against a timeline.
 
 ![pr-hlmm](http://nafdocs.org/wp-content/uploads/2013/06/pr-hlmm.png)
 
-## Meta-Model
 
-The detailed meta-model for Pr can be viewed
-[here](/modem/index.htm?goto=69)
 
