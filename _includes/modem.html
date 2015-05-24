@@ -1,0 +1,11 @@
+{% assign map = site.data.modem[page.id] %}
+
+{% if map != null %}
+
+<h2>Meta-Model</h2>
+
+
+<p>The detailed meta-model for {{page.id | capitalize}} can be viewed
+<a href="{{ site.modem }}{{ map.modem }}">here</a></p>
+
+{% endif %}
