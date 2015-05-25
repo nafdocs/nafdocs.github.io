@@ -13,7 +13,7 @@ stakeholders.
   files has been included in the repository - that is on purpose. So
   images are included only by links to the Wordpress web-site.
 
-* Also no part of the MODEM model have been included - angain all
+* Also no part of the MODEM model have been included - again all
   references links to the original Wordpress site.
 
 * The Viewpoint grid markup and stylesheets have not been
