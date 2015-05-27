@@ -1,13 +1,218 @@
+
+// NAF Colors 
 $naf-green:  #9dbb61;
 $naf-purple: #927aad;
 $naf-blue:   #6290e6;
 $naf-brown:  #f3b701;
-$naf-gray:   #666;
+$naf-grey:   #666;
 $naf-yellow: #ff0;
 
 $concept-color:      $naf-green;
 $service-color:      $naf-purple;
 $logical-color:      $naf-blue;
 $physical-color:     $naf-brown;
-$deploy-color:       $naf-gray;
+$deploy-color:       $naf-grey;
 $architecture-color: $naf-yellow;
+
+// Basic color definitions
+
+.concept {
+  color: $concept-color;
+}
+
+
+.service {
+  color: $service-color;
+}
+
+
+.logical {
+  color: $logical-color;
+}
+
+.physical {
+  color: $physical-color;
+}
+
+.deploy {
+  color: $deploy-color;
+}
+
+.architecture {
+  color: $architecture-color;
+}
+
+// Grid markup
+
+table.naf4-grid {
+  border-collapse: separate;
+  border-spacing: 3px;
+}
+
+
+.viewpoint {
+  vertical-align: middle;
+  height: 60px;
+}
+
+.viewpoint td {
+  padding: 4px;
+  border-width: 2px;
+  border-style: solid;
+  vertical-align: top;
+  text-align: right;
+  font-size: 20px;
+  width: 85px;
+}
+
+.viewpoint td a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Hoovering on nomal Model Kind cells
+
+td:hover {
+  color: #fff;
+}
+
+.concept td:hover {
+  background-color: $concept-color;
+}
+
+.service td:hover {
+  background-color: $service-color;
+}
+
+.logical td:hover {
+  background-color: $logical-color;
+}
+
+.physical td:hover {
+  background-color: $physical-color;
+}
+.deploy td:hover {
+  background-color: $deploy-color;
+}
+.architecture td:hover {
+  background-color: $architecture-color;
+  color: black;
+}
+
+// Normal labels
+
+td.label {
+  display: table-cell;
+  line-height: 100%;
+  font-size: 14px;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  padding: 4px;
+}
+
+.label-concept {
+  background-color: $concept-color;
+  border-color: $concept-color;
+}
+
+.label-service {
+  background-color: $service-color;
+  border-color: $service-color;  
+}
+
+.label-logical {
+  background-color: $logical-color;
+  border-color: $logical-color;  
+}
+
+.label-physical {
+  background-color: $physical-color;
+  border-color: $physical-color;  
+}
+
+.label-deploy {
+  background: $deploy-color;
+  border-color: $deploy-color;  
+}
+
+.label-architecture {
+  background-color: $architecture-color;
+  border-color: $architecture-color;
+  color: black;
+}
+
+// Labels  on hoover
+
+td.label:hover {
+  background-color: white;
+}
+
+td.label-concept:hover {
+  color: $concept-color;
+}
+
+td.label-service:hover {
+  color: $service-color;
+}
+
+td.label-logical:hover {
+  color: $logical-color;
+}
+
+td.label-physical:hover {
+  color: $physical-color;
+}
+
+td.label-deploy:hover {
+  color: $deploy-color;
+}
+
+td.label-architecture:hover {
+  color: black;
+}
+
+// Model Kind markup
+
+.mk__viewTitle {
+  font-size: 12px;
+  color: #000;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.mk__legacyCodes {
+  font-size: 9px;
+  text-align: center;
+  font-style: italic;
+}
+
+.notmodelkind {
+  border-color: transparent;
+}
+
+// Break
+
+.break {
+  height: 60px;
+}
+
+// Connector
+
+.connector, .connector a {
+    margin-top: -3px;
+    margin-bottom: -3px;
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    font-size: 9px;
+    text-align: center;
+}
+
+.tooBright {
+  color: black;
+  td {
+    border-color: $architecture-color;
+  }
+}
