@@ -13,5 +13,7 @@ basenafdocs: ""
 
 modem: "http://nafdocs.org/modem/index.htm?goto="
 
+ghurl: "http://github.com/nafdocs/nafdocs.github.io/"
+
 # Build settings
 markdown: kramdown
