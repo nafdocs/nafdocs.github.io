@@ -49,6 +49,14 @@ table.naf4-grid {
   border-spacing: 3px;
 }
 
+th, th a, th a:hover {
+  background-color: #aaa;
+  border: 2px solid #aaa;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: normal;
+}
 
 .viewpoint {
   vertical-align: middle;
@@ -136,7 +144,7 @@ td.label {
   border-color: $deploy-color;  
 }
 
-.label-architecture {
+td.label-architecture {
   background-color: $architecture-color;
   border-color: $architecture-color;
   color: black;
