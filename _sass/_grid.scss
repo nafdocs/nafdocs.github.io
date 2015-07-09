@@ -1,3 +1,4 @@
+/* NAF Grid Styles */
 
 // NAF Colors 
 $naf-green:  #9dbb61;
@@ -50,27 +51,28 @@ table.naf4-grid {
 }
 
 th, th a, th a:hover {
-  background-color: #aaa;
-  border: 2px solid #aaa;
-  text-decoration: none;
-  color: white;
-  text-align: center;
   font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  background-color: #aaa;
+  color: white;
+  border: 2px solid #aaa;
 }
 
+
 .viewpoint {
-  vertical-align: middle;
   height: 60px;
+  vertical-align: middle;
 }
 
 .viewpoint td {
+  width: 85px;
+  font-size: 20px;
   padding: 4px;
-  border-width: 2px;
-  border-style: solid;
   vertical-align: top;
   text-align: right;
-  font-size: 20px;
-  width: 85px;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .viewpoint td a {
@@ -111,12 +113,12 @@ td:hover {
 
 td.label {
   display: table-cell;
-  line-height: 100%;
+  padding: 4px;
   font-size: 14px;
-  color: white;
+  line-height: 100%;
   vertical-align: middle;
   text-align: center;
-  padding: 4px;
+  color: white;
 }
 
 .label-concept {
@@ -140,7 +142,7 @@ td.label {
 }
 
 .label-deploy {
-  background: $deploy-color;
+  background-color: $deploy-color;
   border-color: $deploy-color;  
 }
 
@@ -183,17 +185,17 @@ td.label-architecture:hover {
 // Model Kind markup
 
 .mk__viewTitle {
-  font-size: 12px;
-  color: #000;
-  text-align: center;
   margin-top: 4px;
   margin-bottom: 4px;
+  font-size: 12px;
+  text-align: center;
+  color: #000;
 }
 
 .mk__legacyCodes {
   font-size: 9px;
-  text-align: center;
   font-style: italic;
+  text-align: center;
 }
 
 .notmodelkind {
@@ -209,13 +211,13 @@ td.label-architecture:hover {
 // Connector
 
 .connector, .connector a {
-    margin-top: -3px;
-    margin-bottom: -3px;
-    text-decoration: none;
-    color: white;
-    padding: 2px;
-    font-size: 9px;
-    text-align: center;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  padding: 2px;
+  font-size: 9px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }
 
 .tooBright {
