@@ -2,9 +2,9 @@
 title: Ar – Architecture Roadmap
 layout: page
 id: ar
+legacy: "NAF v3: NAV-1 MODAF: AV-1"
 ---
 
-*NAF v3: NAV-1 MODAF: AV-1*
 
 The Ar Architecture Roadmap view specifies the project plan for the
 architecture, the key approval milestones and the roles and

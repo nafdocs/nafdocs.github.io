@@ -2,10 +2,9 @@
 title: Pr – Configuration Management
 layout: page
 id: pr
+legacy: "NAF v3: NSV-8 MODAF: SV-8"
 ---
 
-
-*NAF v3: NSV-8 MODAF: SV-8*
 
 The Pr Configuration Management view depicts the whole lifecycle view of
 a Resource, describing how its configuration changes over time.
