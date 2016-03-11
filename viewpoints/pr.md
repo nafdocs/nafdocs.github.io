@@ -2,6 +2,7 @@
 title: Pr – Configuration Management
 layout: page
 id: pr
+viewpoint: physical
 legacy: "NAF v3: NSV-8 MODAF: SV-8"
 ---
 

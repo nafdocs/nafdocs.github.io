@@ -2,6 +2,7 @@
 title: Lr – Lines of Development
 layout: page
 id: lr
+viewpoint: logical
 ---
 
 The Lr view specifies the logical threads (lines of development) for a

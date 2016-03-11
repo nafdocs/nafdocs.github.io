@@ -2,6 +2,7 @@
 title: Ar – Architecture Roadmap
 layout: page
 id: ar
+viewpoint: architecture
 legacy: "NAF v3: NAV-1 MODAF: AV-1"
 ---
 

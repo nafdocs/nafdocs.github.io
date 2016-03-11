@@ -2,6 +2,7 @@
 title: Cr – Capability Roadmap
 layout: page
 id: cr
+viewpoint: capability
 legacy: "NAF v3: NCV-3 MODAF: StV-3"
 ---
 
