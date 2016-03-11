@@ -6,5 +6,14 @@ layout: default
 {% if page.legacy != null %}
 <p><em>{{ page.legacy }}</em></p>
 {% endif %}
+
+
+{% if page.viewpoint != null %}
+<p>
+  {% include  viewpoint-bars/{{ page.viewpoint }}-bar.html %}
+</p>
+{% endif %}
+
+
 {{ content }}
 
