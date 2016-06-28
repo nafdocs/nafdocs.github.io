@@ -1,6 +1,6 @@
-/* NAF Grid Styles */
+// NAF Grid Styles
 
-// NAF Colors 
+// NAF Colors
 $naf-green:  #9dbb61;
 $naf-purple: #927aad;
 $naf-blue:   #6290e6;
@@ -14,6 +14,8 @@ $logical-color:      $naf-blue;
 $physical-color:     $naf-brown;
 $deploy-color:       $naf-grey;
 $architecture-color: $naf-yellow;
+
+$text-color: #fff;
 
 // Basic color definitions
 
@@ -51,13 +53,15 @@ table.naf4-grid {
   width: 100%;
 }
 
-th, th a, th a:hover {
+th,
+th a,
+th a:hover {
+  background-color: #aaa;
+  border: 2px solid #aaa;
+  color: $text-color;
   font-weight: normal;
   text-align: center;
   text-decoration: none;
-  background-color: #aaa;
-  color: white;
-  border: 2px solid #aaa;
 }
 
 
@@ -102,9 +106,11 @@ td:hover {
 .physical td:hover {
   background-color: $physical-color;
 }
+
 .deploy td:hover {
   background-color: $deploy-color;
 }
+
 .architecture td:hover {
   background-color: $architecture-color;
   color: black;
@@ -113,13 +119,13 @@ td:hover {
 // Normal labels
 
 td.label {
+  color: $text-color;
   display: table-cell;
-  padding: 4px;
   font-size: 14px;
   line-height: 100%;
-  vertical-align: middle;
+  padding: 4px;
   text-align: center;
-  color: white;
+  vertical-align: middle;
 }
 
 .label-concept {
@@ -129,22 +135,22 @@ td.label {
 
 .label-service {
   background-color: $service-color;
-  border-color: $service-color;  
+  border-color: $service-color;
 }
 
 .label-logical {
   background-color: $logical-color;
-  border-color: $logical-color;  
+  border-color: $logical-color;
 }
 
 .label-physical {
   background-color: $physical-color;
-  border-color: $physical-color;  
+  border-color: $physical-color;
 }
 
 .label-deploy {
   background-color: $deploy-color;
-  border-color: $deploy-color;  
+  border-color: $deploy-color;
 }
 
 td.label-architecture {
@@ -211,14 +217,15 @@ td.label-architecture:hover {
 
 // Connector
 
-.connector, .connector a {
-  margin-top: -3px;
-  margin-bottom: -3px;
-  padding: 2px;
+.connector,
+.connector a {
+  color: white;
   font-size: 9px;
+  margin-bottom: -3px;
+  margin-top: -3px;
+  padding: 2px;
   text-align: center;
   text-decoration: none;
-  color: white;
 }
 
 .tooBright {
