@@ -21,12 +21,9 @@ of Service Specifications.
 
 ### Key Elements and Their Relationships
 
-![sr-hlmm](http://nafdocs.org/wp-content/uploads/2013/06/sr-hlmm.png)
+![sr-hlmm]({{ assets }}sr-hlmm.png)
 
 -   Service Specification
 -   Project Milestone
 -   Service Level
 -   Service Specification Version Succession (relationship)
-
-
-

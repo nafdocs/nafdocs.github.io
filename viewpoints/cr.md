@@ -48,7 +48,7 @@ configuration coming into and going out of service. Where nothing meets
 a particular capability at a particular time, whitespace is shown so as
 to highlight capability gaps.
 
-![cr-example-1](http://nafdocs.org/wp-content/uploads/2013/06/cr-example-1.png)
+![cr-example-1]({{ assets }}cr-example-1.png)
 
 The view is created by analysing project data to determine when projects
 acquiring resources that provide military capability are to be
@@ -61,7 +61,7 @@ represents the required capability phasing. However, there is a variant
 view in which the table is overlaid with the names of the projects that
 will deliver the capability increments:
 
-![cr-example-2](http://nafdocs.org/wp-content/uploads/2013/06/cr-example-2.png)
+![cr-example-2]({{ assets }}cr-example-2.png)
 
 
 The essence of this variant view is the relationship between projects,
@@ -83,12 +83,10 @@ specified in [C2](c2.html) may or may not be met by those programmes.*
 ## Key Elements and Their Relationships
 
 
-![cr-hlmm](http://nafdocs.org/wp-content/uploads/2013/06/cr-hlmm.png)
+![cr-hlmm]({{ assets }}cr-hlmm.png)
 
 -   Capability
 -   Resource Package
 -   Capability Configuration
 -   Project
 -   Project Milestone
-
-

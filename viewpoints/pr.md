@@ -28,7 +28,4 @@ Implementations) mapped against a timeline.
 
 ## Key Elements and Their Relationships
 
-![pr-hlmm](http://nafdocs.org/wp-content/uploads/2013/06/pr-hlmm.png)
-
-
-
+![pr-hlmm]({{ assets }}pr-hlmm.png)

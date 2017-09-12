@@ -32,6 +32,4 @@ and be aligned with [Cr Capability Phasing](cr.html) view.
 
 ## Key Elements and Their Relationships
 
-![lr-hlmm](http://nafdocs.org/wp-content/uploads/2013/06/lr-hlmm.png)
-
-
+![lr-hlmm]({{ assets }}lr-hlmm.png)

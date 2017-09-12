@@ -1,5 +1,5 @@
 ---
-title: 
+title:
 layout: page
 ---
 
@@ -20,4 +20,4 @@ The NATO Architecture Framework is in five main parts:
 * [Meta-Model](meta-model/) – the NAF elements and their relationships
 
 
-<p class="clearfix"><img class="pull-right" alt="NATO_OTAN_landscape_logo" src="http://nafdocs.org/wp-content/uploads/2013/09/NATO_OTAN_landscape_logo.svg" width="300px" height="156px"></p>
+<p class="clearfix"><img class="pull-right" alt="NATO_OTAN_landscape_logo" src="{{ assets }}NATO_OTAN_landscape_logo.svg" width="300px" height="156px"></p>
