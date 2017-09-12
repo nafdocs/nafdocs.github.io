@@ -11,8 +11,8 @@ github_username:  nafdocs
 
 basenafdocs: ""
 
-modem: "/modem/index.htm?goto="
-assets: "/assets/"
+modem: /modem/index.htm?goto=
+assets: /assets/
 
 # Build settings
 markdown: kramdown

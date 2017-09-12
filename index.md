@@ -1,5 +1,5 @@
 ---
-title:
+title: NATO Architecture Framework v4
 layout: page
 ---
 
