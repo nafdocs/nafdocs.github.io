@@ -32,4 +32,4 @@ and be aligned with [Cr Capability Phasing](cr.html) view.
 
 ## Key Elements and Their Relationships
 
-![lr-hlmm]({{ assets }}lr-hlmm.png)
+![lr-hlmm]({{ site.assets }}lr-hlmm.png)

@@ -28,4 +28,4 @@ Implementations) mapped against a timeline.
 
 ## Key Elements and Their Relationships
 
-![pr-hlmm]({{ assets }}pr-hlmm.png)
+![pr-hlmm]({{ site.assets }}pr-hlmm.png)

@@ -21,7 +21,7 @@ of Service Specifications.
 
 ### Key Elements and Their Relationships
 
-![sr-hlmm]({{ assets }}sr-hlmm.png)
+![sr-hlmm]({{ site.assets }}sr-hlmm.png)
 
 -   Service Specification
 -   Project Milestone
