@@ -236,3 +236,13 @@ td.label-architecture:hover {
     border-color: $architecture-color;
   }
 }
+
+// Used to hide or show Legacy codes
+
+.naf3 {
+  visibility: visible;
+}
+
+.modaf {
+  visibility: visible;
+}
