@@ -16,7 +16,7 @@ The NATO Architecture Framework is in five main parts:
 * [Introduction](introduction/) – An overview of NAF, what it’s for and who uses it.
 * [Methodology](methodology/) – How to use NAF
 * [Viewpoints](viewpoints/) – The types of NAF Views and their levels of abstractions
-* [Stakeholder](stakeholder/) Viewpoints – Architectural stakeholders and their viewpoints / concerns
+* [Stakeholder Viewpoints](stakeholderviewpoints/) – Architectural stakeholders and their viewpoints / concerns
 * [Meta-Model](meta-model/) – the NAF elements and their relationships
 
 
