@@ -9,6 +9,7 @@ $naf-brown:  #f3b701;
 $naf-grey:   #666;
 $naf-yellow: #ff0;
 
+
 $concept-color:      $naf-green;
 $service-color:      $naf-purple;
 $logical-color:      $naf-blue;
@@ -16,36 +17,17 @@ $physical-color:     $naf-brown;
 $deploy-color:       $naf-grey;
 $architecture-color: $naf-yellow;
 
-.concept {
-  color: $concept-color;
-}
 
-.service {
-  color: $service-color;
-}
+.concept      { color: $concept-color; }
+.service      { color: $service-color; }
+.logical      { color: $logical-color; }
+.physical     { color: $physical-color; }
+.deploy       { color: $deploy-color; }
+.architecture { color: $architecture-color; }
 
-.logical {
-  color: $logical-color;
-}
+// 
 
-.physical {
-  color: $physical-color;
-}
 
-.deploy {
-  color: $deploy-color;
-}
-
-.architecture {
-  color: $architecture-color;
-}
-
-// Standard reset
-
-* {
-  margin: 0;
-  padding: 0;
-}
 
 html {
     box-sizing: border-box;
@@ -56,13 +38,12 @@ html {
 
 ul.naf4-grid {
   display: grid;
-  grid-template-columns: repeat(3, 106px) 17px repeat(7, 106px);
+  grid-template-columns: repeat(3, 106px) 16px repeat(7, 106px);
   grid-gap: 4px 4px;
   list-style: none;
-  margin: 1rem 0 0 1rem;
 }
 
-// Grid locations
+// Grid cell locations
 
 .behaviour {
   grid-column: 6 / 9;
@@ -80,10 +61,12 @@ ul.naf4-grid {
   align-items: center;
  }
 
+
 .label div {
   width: 100%; // ensure that small labels such as concept are also are also centered horizontally
   text-align: center;
 }
+
 
 .c7 {
   grid-column: 9;
@@ -94,9 +77,6 @@ ul.naf4-grid {
   grid-column: 5;
 }
 
-.l2-l3 {
-  grid-column: 4;
-}
 
 .dr {
   grid-column: 11;
@@ -113,6 +93,8 @@ ul.naf4-grid {
 }
 
 
+// Create the space above the architectural viewpoints
+
 .break {
   grid-column: 1 / 11;
   border: 0;
@@ -120,9 +102,9 @@ ul.naf4-grid {
 }
 
 
-// Grid markup
+// Grid headers
 
-li.header, li.header a, li.header a:hover {
+.header, .header a, .header a:hover {
   font-size: 14px;
   font-weight: normal;
   text-align: center;
@@ -130,58 +112,77 @@ li.header, li.header a, li.header a:hover {
   background-color: #aaa;
   color: white;
   border: 2px solid #aaa;
+  padding: 4px;
 }
 
+// Viewpoint markup
 
-li {
-  font-size: 20px;
+.vp {
   padding: 4px;
   vertical-align: top;
-  text-align: right;
   border-width: 2px;
   border-style: solid;
+}  
+
+.vp__id {
+  font-size: 20px;
+  text-align: right;
+}
+
+.vp__viewTitle {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 12px;
+  text-align: center;
+  color: #000;
 }
 
 
-li a {
+.vp__legacyCodes {
+  font-size: 9px;
+  font-style: italic;
+  text-align: center;
+}
+
+.vp a {
   text-decoration: none;
   color: inherit;
 }
 
 
-// Hoovering on nomal Model Kind cells
+// Hoovering on nomal Viewpoints cells
 
-li:hover {
+.vp:hover {
   color: #fff;
 }
 
 
-li.concept:hover {
+.vp.concept:hover {
   background-color: $concept-color;
 }
 
 
-li.service:hover {
+.vp.service:hover {
   background-color: $service-color;
 }
 
 
-li.logical:hover {
+.vp.logical:hover {
   background-color: $logical-color;
 }
 
 
-li.physical:hover {
+.vp.physical:hover {
   background-color: $physical-color;
 }
 
 
-li.deploy:hover {
+.vp.deploy:hover {
   background-color: $deploy-color;
 }
 
 
-li.architecture:hover {
+.vp.architecture:hover {
   background-color: $architecture-color;
   color: black;
 }
@@ -189,7 +190,7 @@ li.architecture:hover {
 
 // Normal labels
 
-li.label {
+.label {
   height: 88px;
   padding: 4px;
   font-size: 14px;
@@ -222,71 +223,16 @@ li.label {
 }
 
 
-li.label-deploy {
+.label-deploy {
   background-color: $deploy-color;
   border-color: $deploy-color;
 }
 
 
-li.label-architecture {
+.label-architecture {
   background-color: $architecture-color;
   border-color: $architecture-color;
   color: black;
-}
-
-
-// Labels  on hoover
-
-li.label:hover {
-  background-color: white;
-}
-
-
-.label-concept:hover {
-  color: $concept-color;
-}
-
-
-.label-service:hover {
-  color: $service-color;
-}
-
-
-.label-logical:hover {
-  color: $logical-color;
-}
-
-
-.label-physical:hover {
-  color: $physical-color;
-}
-
-
-.label-deploy:hover {
-  color: $deploy-color;
-}
-
-
-.label-architecture:hover {
-  color: black;
-}
-
-
-// Model Kind markup
-
-.mk__viewTitle {
-  margin-top: 4px;
-  margin-bottom: 4px;
-  font-size: 12px;
-  text-align: center;
-  color: #000;
-}
-
-
-.mk__legacyCodes {
-  font-size: 9px;
-  font-style: italic;
-  text-align: center;
 }
 
 
@@ -294,14 +240,15 @@ li.label:hover {
 
 .break {
   height: 60px;
+  border: 0;
 }
 
-// Connector
+// Connectors
 
 .vconnector, .vconnector a {
   margin-top: -4px;
   margin-bottom: -4px;
-  padding: 2px;
+  padding: 3px 0 2px;
   font-size: 9px;
   text-align: center;
   text-decoration: none;
@@ -311,15 +258,21 @@ li.label:hover {
 .hconnector, .hconnector a {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  padding: 4px;
+  padding-right: 5px;
   font-size: 9px;
+  text-align: center;
   color: white;
   margin-left: -4px;
   margin-right: -4px;
 }
 
 
-li.tooBright {
+.tooBright {
   color: black;
   border-color: $architecture-color;
+}
+
+
+.modaf {
+  // display: none;
 }
